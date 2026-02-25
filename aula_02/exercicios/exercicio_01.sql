@@ -12,17 +12,15 @@ CREATE TABLE tb_colaboradores(
 );
 
 INSERT INTO tb_colaboradores(nome_completo, cargo, idade, salario)
-VALUES ('Paula Alcantara', 'Desenvolvedora', 28, 3150.20),
+VALUES ('Paula Alcantara', 'Desenvolvedora Junior', 28, 2550.20),
 	   ('Jeaninny Teixeira', 'Analista de Dados', 27, 3300.36),
-       ('Bianca Caetano', 'Desenvolvedora Senior', 25, 4150.72),
+       ('Bianca Caetano', 'Desenvolvedora Senior', 25, 5780.72),
        ('Sabrina Novaes', 'Tech Lead', 29, 8050.39),
-       ('Camila Lopes', 'Gerente', 34, 9999.99);
+       ('Camila Lopes', 'Diretora', 34, 9999.99);
        
 SELECT * FROM tb_colaboradores;
 
 SELECT * FROM tb_colaboradores WHERE salario > 2000;
 SELECT * FROM tb_colaboradores WHERE salario > 4000;
 
-UPDATE tb_colaboradores SET salario = 3550.28 WHERE id = 2;
-       
-
+UPDATE tb_colaboradores SET salario = 4020.28 WHERE id = 2;
